@@ -271,6 +271,6 @@ def line_login():
     else:
         return render_template('login.html', client_id=line_login_id, end_point=end_point)
 
-if __name__ == "__main__":
-    app.debug = True
-    app.run(port=5000)
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+
