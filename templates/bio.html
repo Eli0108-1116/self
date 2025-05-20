@@ -6,6 +6,17 @@
 </head>
 <body>
     <h1>👤 自傳</h1>
-    <p>你好，我是 Eli，一位對技術充滿熱情的開發者...</p>
+    <li>
+            <a href="{{ url_for('static', filename='蔡宗霖自傳_page-0001.jpg') }}" target="_blank">
+                自傳第一頁
+            </a><br>
+            <img src="{{ url_for('static', filename='蔡宗霖自傳_page-0001.jpg') }}" width="300">
+    </li>
+    <li>
+            <a href="{{ url_for('static', filename='蔡宗霖自傳_page-0002.jpg') }}" target="_blank">
+                自傳第二頁
+            </a><br>
+            <img src="{{ url_for('static', filename='蔡宗霖自傳_page-0002.jpg') }}" width="300">
+    </li>
 </body>
 </html>
