@@ -106,7 +106,7 @@ def index():
                                             {
                                                 "type": "uri",
                                                 "label": "GitHub 個人頁",
-                                                "uri": "https://github.com/your-username"
+                                                "uri": "https://github.com/Eli0108-1116"
                                             }
                                         ]
                                     },
